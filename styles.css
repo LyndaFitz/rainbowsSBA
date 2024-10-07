@@ -1,0 +1,71 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    color: rgb(214, 137, 188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ .lilita-one-regular {
+     font-family: "Lilita One", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+ }
+ 
+.colorscontainer {
+            position: fixed;
+            top: 0;
+            border-bottom-left-radius: 0;
+            width: 100%;
+            padding: 10px;
+            font-size: 24px;
+               
+}
+
+#mainheading {
+            margin: 0;
+            padding: 0;
+            font-size: 3rem;
+            text-align: center;
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+.colorscontainer{
+            margin-left: 800px;
+            
+    
+}
+.colorscontainer {
+    margin-top: 50px;
+    
+}
+
+#rainbowcolors {
+    border: 50px solid #69a8fadb;
+    padding: 10px;
+    list-style-type: none;
+    width: 300px;
+}
+
+#mainheading {
+    font-family: 'Lilita One', sans-serif;
+}
+
+.colorscontainer {
+    font-family: 'Lilita One', sans-serif;
+}
+
+
+/* Changing my heading style by using hover (classlist) */
+.hover-style {
+    color: #FF69B4;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+}
