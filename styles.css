@@ -69,3 +69,23 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     transition: all 0.3s ease-in-out;
 }
+
+/* Hover to change button's color to color of the rainbow  */
+#colorbtn {
+    color:#69a8fadb;
+     text-shadow: 2px 2px 4px rgba(73, 107, 166, 0.5);
+     transition: all 0.3s ease-in-out;
+}
+#colorbtn2:active {
+    background-color: rgb(36, 174, 96);
+    transform: translateY(4px);
+
+}
+
+#colorbtn2 {
+    color: #69a8fadb;
+    text-shadow: 2px 2px 4px rgba(195, 82, 82, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+

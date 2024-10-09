@@ -1,5 +1,5 @@
 // I am going to change the h1 heading from "Lynda's Rainbow" to "Colors of the Rainbow" using a js statement.
-var heading = document.getElementById('mainheading');
+let heading = document.getElementById('mainheading');
 
 // I'm going to change my list by taking an item off the list of colors using a query
 const list = document.querySelector('#rainbowcolors');
@@ -66,5 +66,37 @@ const firstItem = list.firstElementChild;
 const lastItem = list.lastElementChild;
 firstItem.innerText = "Scarlet";  // Change red to Scarlet
 lastItem.innerText = "Purple";  // Change violet to Purple
+
+
+
+let btn = document.querySelector("#colorbtn")
+console.log('btn is 1   ----> ', btn);
+
+btn.addEventListener('mouseover', function() {
+    btn.style.backgroundColor = "blue";
+});
+
+btn.addEventListener('mouseout', function () {
+    btn.style.backgroundColor = "white";
+});
+
+function validateForm() {
+    
+    let name = document.getElementById('name').value; // Get the value of the 'name' input field
+    // Check if the length of the input is greater than 10
+    if (name.length > 10) {
+        alert("Please limit the input to 10 characters.");
+        return false; // Prevent form submission
+    }
+
+    return true; // Form is valid
+}
+
+    
+
+
+
+
+
 
 
